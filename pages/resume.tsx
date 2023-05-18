@@ -47,7 +47,24 @@ export default function Resume() {
             Structures and Algorithms, Discrete Math, Linear Algebra
           </li>
         </ul>
-        <br />
+        <h2>Skills</h2>
+        <ul className="list-disc space-y-1">
+          <li>
+            <span className="font-bold">Languages: </span>C++, Python, Java, Javascript, TypeScript,
+            HTML, CSS, SQL
+          </li>
+          <li>
+            <span className="font-bold">Frameworks / Technologies: </span> Django, React, Gatsby,
+            Next.js, Git
+          </li>
+        </ul>
+        <h2>Other</h2>
+        <ul className="list-disc space-y-1">
+          <li>USACO Computing Olympiad, Gold Division</li>
+          <li>Presidential Volunteer Service Award: Gold/Silver</li>
+          <li>NCWIT Aspirations in Computing Award: Bay Area Affiliate</li>
+
+        </ul>
         <br />
         <br />
         <br />

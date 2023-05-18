@@ -1,19 +1,24 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
+    title: 'jasminehou.dev',
+    description: `My personal website created with Next.js and Tailwind.css.`,
     imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    href: 'https://github.com/jsmnhou/jasmine-website-v2',
+    projectType: 'personal'
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
+    title: 'Mental Health/COVID-19 Analysis',
+    description: `Investigating effects of COVID-19 on student mental health with NumPy, Pandas, and more.`,
     imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    href: 'https://github.com/jsmnhou/mental-health/blob/main/final_mental_health_during_COVID19.ipynb',
+    projectType: 'personal'
+  },
+  {
+    title: 'youtube-dl',
+    description: `Open source contributions to the popular command-line program for downloading videos.`,
+    imgSrc: '/static/images/time-machine.jpg',
+    href: 'https://github.com/ytdl-org/youtube-dl',
+    projectType: 'oss'
   },
 ]
 
