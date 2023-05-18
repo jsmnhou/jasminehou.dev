@@ -1,7 +1,7 @@
 import siteMetadata from '@/data/siteMetadata'
 import { PageSEO } from '@/components/SEO'
 import Image from 'next/image'
-import { InferGetStaticPropsType } from 'next'
+// import { InferGetStaticPropsType } from 'next'
 import PageTitle from '@/components/PageTitle'
 import SocialIcon from '@/components/social-icons'
 
@@ -12,7 +12,7 @@ export default function About() {
         title={`About - ${siteMetadata.author}`}
         description={`About me - ${siteMetadata.author}`}
       />
-      <div className="space-y-2 pb-10 pt-6 md:space-y-5">
+      <div className="space-y-2 pb-6 pt-6 md:space-y-5">
         <PageTitle>About</PageTitle>
       </div>
       <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
@@ -42,10 +42,11 @@ export default function About() {
           <span className="text-blue-500">(Go Blue!)</span>
           <br />
           <br />
-          Hobbies include:
+          When not studying, you'll probably find me:
           <ul className="list-disc">
-            <li>Playing video games</li>
-            <li>Skiing / Snowboarding</li>
+            <li>Playing League or Smash</li> 
+            {/* link to krool */}
+            <li>Planning my next snowboarding trip</li>
             <li>Watching anime or YouTube video essays</li>
           </ul>
           <br />
