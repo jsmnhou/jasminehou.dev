@@ -15,13 +15,13 @@ const Header = () => {
             <div className="mr-3">
               <Image
                 src="/../public/static/images/krool-logo.png"
-                width={35}
-                height={35}
+                width={27}
+                height={25}
                 alt="KROOLLL"
               />
             </div>
             {typeof siteMetadata.headerTitle === 'string' ? (
-              <div className="hidden h-6 text-2xl font-semibold sm:block">
+              <div className="hidden h-6 text-xl font-semibold sm:block">
                 {siteMetadata.headerTitle}
               </div>
             ) : (

@@ -26,10 +26,10 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
       <div className="mt-20">
         <div className="flex">
           <div className="w-2/3 space-y-2 pb-8 pt-6 md:space-y-5">
-            <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            <h1 className="font-sans text-3xl font-semibold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Hey, I'm Jasmine!
             </h1>
-            <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+            <p className="pt-4 text-lg leading-relaxed text-gray-500 dark:text-gray-400">
               I'm currently a second-year computer science student at the University of Michigan.
               Feel free to check out my projects or simply explore!
               <br />
