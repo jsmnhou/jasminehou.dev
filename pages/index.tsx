@@ -31,7 +31,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             {/* <h1 className="font-sans text-3xl font-semibold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Hey, I'm Jasmine!
             </h1> */}
-            <p className="pt-4 text-lg leading-relaxed text-gray-500 dark:text-gray-400">
+            <p className="prose pt-4 text-lg leading-relaxed dark:prose-dark">
               I'm currently a second-year computer science student at the University of Michigan.
               Feel free to check out my projects or simply explore!
               <br />
@@ -43,10 +43,10 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             <div className="flex w-full justify-center ">
               <Image
                 className="rounded-lg"
-                src="/../public/static/images/pinkie.jpg"
-                width={200}
-                height={200}
-                alt="pinkie"
+                src="/../public/static/images/pengu-art.png"
+                width={400}
+                height={400}
+                alt="pengu"
               />
             </div>
           </div>

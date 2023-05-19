@@ -19,8 +19,7 @@ export function TypedHeading() {
   }, [])
 
   return (
-    <div className="font-sans text-3xl font-semibold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-      
+    <div className="font-sans text-3xl font-medium leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
       <span ref={el} />
     </div>
   )
