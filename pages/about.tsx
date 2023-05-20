@@ -41,7 +41,6 @@ export default function About() {
 
         {/* About Me Text */}
         <div className="prose pb-8 pt-2 text-lg leading-relaxed dark:prose-dark xl:col-span-2">
-          <TopTrackSpotify />
           Hey, I'm Jasmine! I grew up in the Bay Area and I'm currently in my second year as a
           computer science student at the University of Michigan.{' '}
           <span className="font-semibold text-blue-500">(Go Blue!)</span>
@@ -56,29 +55,22 @@ export default function About() {
           </ul>
           <br />
           Got any project ideas or anime recommendations, shoot me an email; I would love to chat!
-          <br />
-          <br />
-          <h2>Some Favorites:</h2>
-          <h4>Top Anime</h4>
-          <div className="grid grid-cols-4 md:grid-cols-6 ">
+          <h2 className="mt-10 mb-4">Some Favorites:</h2>
+          <h3>Top Anime</h3>
+          <div className="grid grid-cols-6">
             {animeTop.map((d) => (
-              <a href={d.url} title={d.title} target="_blank">
-                <Image
-                  // className="object-cover w-full h-full"
-                  src={d.thumbnail}
-                  width={100}
-                  height={100}
-                  alt=""
-                />
-              </a>
+              <div className="relative aspect-[25/36]">
+                <a href={d.url} title={d.title} target="_blank" className="">
+                  <Image className="my-0 object-cover" src={d.thumbnail} alt={d.title} fill />
+                </a>
+              </div>
             ))}
           </div>
+          <h3> Top Songs</h3>
+          <TopTrackSpotify />
           <br />
           <br />
           Hershey (pet me)
-          <br />
-          <br />
-          Spotify (top tracks)
           <br />
           <br />
           Krool Gifs
