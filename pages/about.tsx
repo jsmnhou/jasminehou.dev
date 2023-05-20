@@ -18,13 +18,15 @@ export default function About() {
       <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
         {/* Sticky Sidebar */}
         <div className="flex flex-col items-center pb-12 pt-2 xl:sticky xl:top-4 xl:items-start">
+          <div>
           <Image
-            src="/../public/static/images/pinkie.jpg"
-            width={192}
-            height={192}
+            src="/../public/static/images/me-akira.JPG"
+            width={200}
+            height={250}
             alt="pinkie"
             className="rounded-full xl:rounded-lg"
           />
+          </div>
           <h3 className="pb-2 pt-4 text-2xl font-bold leading-8 tracking-tight">Jasmine Hou</h3>
           <div className="text-gray-500 dark:text-gray-400">University of Michigan</div>
           <div className="flex space-x-3 pt-6">

@@ -21,11 +21,11 @@ function Wave() {
             className="bg-[#1ED760]"
             initial={{
               width: 5,
-              height: 5,
+              height: 15,
             }}
             animate={{
               width: 5,
-              height: 15,
+              height: 5,
             }}
             transition={{
               type: 'spring',
