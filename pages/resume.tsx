@@ -63,7 +63,6 @@ export default function Resume() {
           <li>USACO Computing Olympiad, Gold Division</li>
           <li>Presidential Volunteer Service Award: Gold/Silver</li>
           <li>NCWIT Aspirations in Computing Award: Bay Area Affiliate</li>
-
         </ul>
         <br />
         <br />
