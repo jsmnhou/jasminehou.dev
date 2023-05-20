@@ -51,7 +51,7 @@ export default function Resume() {
         <ul className="list-disc space-y-1">
           <li>
             <span className="font-bold">Languages: </span>C++, Python, Java, Javascript, TypeScript,
-            HTML, CSS, SQL
+            HTML, CSS
           </li>
           <li>
             <span className="font-bold">Frameworks / Technologies: </span> Django, React, Gatsby,
@@ -64,12 +64,6 @@ export default function Resume() {
           <li>Presidential Volunteer Service Award: Gold/Silver</li>
           <li>NCWIT Aspirations in Computing Award: Bay Area Affiliate</li>
         </ul>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
       </div>
     </>
   )

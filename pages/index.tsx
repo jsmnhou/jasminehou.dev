@@ -10,6 +10,8 @@ import { allBlogs } from 'contentlayer/generated'
 import type { Blog } from 'contentlayer/generated'
 import Image from 'next/image'
 import { TypedHeading } from '@/components/TypedHeading'
+import TopTrackSpotify from 'components/TopTrackSpotify'
+
 
 const MAX_DISPLAY = 5
 
@@ -24,7 +26,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="mt-20 mb-20 pb-18">
+      <div className="pb-18 mb-20 mt-20">
         <div className="flex">
           <div className="w-1/2 space-y-2 pb-6 pt-6 md:space-y-5">
             <TypedHeading />
