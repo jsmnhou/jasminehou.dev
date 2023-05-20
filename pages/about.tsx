@@ -5,6 +5,7 @@ import Image from 'next/image'
 import PageTitle from '@/components/PageTitle'
 import SocialIcon from '@/components/social-icons'
 import TopTrackSpotify from 'components/TopTrackSpotify'
+import animeTop from '@/data/animeTop'
 
 export default function About() {
   return (
@@ -58,10 +59,23 @@ export default function About() {
           <br />
           <br />
           <h2>Some Favorites:</h2>
+          <h4>Top Anime</h4>
+          <div className="grid grid-cols-4 md:grid-cols-6 ">
+            {animeTop.map((d) => (
+              <a href={d.url} title={d.title} target="_blank">
+                <Image
+                  // className="object-cover w-full h-full"
+                  src={d.thumbnail}
+                  width={100}
+                  height={100}
+                  alt=""
+                />
+              </a>
+            ))}
+          </div>
+          <br />
+          <br />
           Hershey (pet me)
-          <br />
-          <br />
-          MAL (top shows)
           <br />
           <br />
           Spotify (top tracks)
