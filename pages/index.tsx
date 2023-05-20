@@ -24,9 +24,9 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="mt-20 mb-20 pb-20">
+      <div className="mt-20 mb-20 pb-18">
         <div className="flex">
-          <div className="w-2/3 space-y-2 pb-6 pt-6 md:space-y-5">
+          <div className="w-1/2 space-y-2 pb-6 pt-6 md:space-y-5">
             <TypedHeading />
             {/* <h1 className="font-sans text-3xl font-semibold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Hey, I'm Jasmine!
@@ -37,16 +37,15 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
               <br />
               Thanks for dropping by! ♡
               <br />
-              <br />
             </p>
           </div>
-          <div className="w-1/3">
+          <div className="w-1/2">
             <div className="flex w-full justify-center ">
               <Image
                 className="rounded-lg"
-                src="/../public/static/images/pengu-art.png"
+                src="/../public/static/images/pengu_island.png"
                 width={400}
-                height={400}
+                height={600}
                 alt="pengu"
               />
             </div>
