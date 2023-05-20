@@ -27,7 +27,7 @@ export default function Footer() {
     // </footer>
     <footer className="mt-10 ">
       <NowPlaying />
-      <div className="border-t-muted flex flex-col-reverse justify-between gap-3 border-t-[1px] py-3 text-sm md:flex-row">
+      <div className="border-t-muted flex flex-col-reverse justify-between gap-3 border-t-[1px] border-black py-3 text-sm dark:border-white md:flex-row">
         Made with ♡ by Jasmine Hou
       </div>
     </footer>
