@@ -33,10 +33,9 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             </h1> */}
             <p className="prose pt-4 text-lg leading-relaxed dark:prose-dark">
               I'm currently a second-year computer science student at the University of Michigan.
-              Feel free to check out my projects or simply explore!
               <br />
               <br />
-              Thanks for dropping by. 💗
+              Thanks for dropping by! ♡
             </p>
           </div>
           <div className="w-1/3">

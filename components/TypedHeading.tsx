@@ -13,7 +13,7 @@ export function TypedHeading() {
       typeSpeed: 50,
       backSpeed: 10,
       backDelay: 1500,
-      loop: true,
+      // loop: true,
     })
     return () => typed.destroy()
   }, [])

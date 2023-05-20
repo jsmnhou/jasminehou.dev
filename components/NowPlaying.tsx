@@ -20,12 +20,12 @@ function Wave() {
             key={e}
             className="bg-[#1ED760]"
             initial={{
-              height: 5,
               width: 5,
+              height: 5,
             }}
             animate={{
               width: 5,
-              height: [5, 12, 5],
+              height: 15,
             }}
             transition={{
               type: 'spring',
