@@ -11,6 +11,7 @@ import type { Blog } from 'contentlayer/generated'
 import Image from 'next/image'
 import { TypedHeading } from '@/components/TypedHeading'
 import TopTrackSpotify from 'components/TopTrackSpotify'
+import Pengu from 'public/static/images/pengu_island.png'
 
 const MAX_DISPLAY = 5
 
@@ -42,13 +43,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
           </div>
           <div className="w-1/2">
             <div className="flex w-full justify-center ">
-              <Image
-                className="rounded-lg"
-                src="/../public/static/images/pengu_island.png"
-                width={400}
-                height={600}
-                alt="pengu"
-              />
+              <Image className="rounded-lg" src={Pengu} width={400} height={600} alt="pengu" />
             </div>
           </div>
         </div>
