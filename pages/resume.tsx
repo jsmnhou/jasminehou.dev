@@ -23,6 +23,7 @@ export default function Resume() {
           href="https://docs.google.com/gview?url=https://github.com/jsmnhou/jsmnhou/raw/main/resume.pdf&embedded=true"
           className="inline-flex items-center font-medium text-blue-600 hover:underline dark:text-blue-500"
           target="_blank"
+          rel="noreferrer"
         >
           resume
           <svg
