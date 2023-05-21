@@ -6,7 +6,7 @@ import PageTitle from '@/components/PageTitle'
 import SocialIcon from '@/components/social-icons'
 import TopTrackSpotify from 'components/TopTrackSpotify'
 import animeTop from '@/data/animeTop'
-import Jasmine from 'public/static/images/me-akira.jpg'
+import Jasmine from 'public/static/images/akira.jpg'
 export default function About() {
   return (
     <>
