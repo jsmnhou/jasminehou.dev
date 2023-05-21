@@ -58,13 +58,13 @@ export default function About() {
           <h2 className="mb-4 mt-10">Some Favorites:</h2>
           <h3>Top Anime</h3>
           <div className="grid grid-cols-6">
-            {animeTop.map((d) => (
-              <div className="relative aspect-[25/36]">
+            <div className="relative aspect-[25/36]">
+              {animeTop.map((d) => (
                 <a href={d.url} title={d.title} target="_blank" className="">
                   <Image className="my-0 object-cover" src={d.thumbnail} alt={d.title} fill />
                 </a>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
           <h3> Top Songs</h3>
           <TopTrackSpotify />
