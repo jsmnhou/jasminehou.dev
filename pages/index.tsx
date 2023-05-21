@@ -12,7 +12,6 @@ import Image from 'next/image'
 import { TypedHeading } from '@/components/TypedHeading'
 import TopTrackSpotify from 'components/TopTrackSpotify'
 
-
 const MAX_DISPLAY = 5
 
 export const getStaticProps = async () => {

@@ -55,7 +55,7 @@ export default function About() {
           </ul>
           <br />
           Got any project ideas or anime recommendations, shoot me an email; I would love to chat!
-          <h2 className="mt-10 mb-4">Some Favorites:</h2>
+          <h2 className="mb-4 mt-10">Some Favorites:</h2>
           <h3>Top Anime</h3>
           <div className="grid grid-cols-6">
             {animeTop.map((d) => (

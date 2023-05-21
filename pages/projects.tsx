@@ -15,38 +15,40 @@ export default function Projects() {
           </h1> */}
           <PageTitle>Projects</PageTitle>
         </div>
-        <h2 className="text-xl pt-6 pb-4 font-extrabold leading-5 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-7 md:text-3xl md:leading-9">
+        <h2 className="pb-4 pt-6 text-xl font-extrabold leading-5 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-7 md:text-3xl md:leading-9">
           Personal Projects
         </h2>
         <div className="container py-4">
           <div className="-m-4 flex flex-wrap">
-            {projectsData.filter((project) => project.projectType === "personal")
-            .map((d) => (
-              <Card
-                key={d.title}
-                title={d.title}
-                description={d.description}
-                imgSrc={d.imgSrc}
-                href={d.href}
-              />
-            ))}
+            {projectsData
+              .filter((project) => project.projectType === 'personal')
+              .map((d) => (
+                <Card
+                  key={d.title}
+                  title={d.title}
+                  description={d.description}
+                  imgSrc={d.imgSrc}
+                  href={d.href}
+                />
+              ))}
           </div>
         </div>
-        <h2 className="text-xl pt-6 pb-4 font-extrabold leading-5 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-7 md:text-3xl md:leading-9">
-          Open Source 
+        <h2 className="pb-4 pt-6 text-xl font-extrabold leading-5 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-7 md:text-3xl md:leading-9">
+          Open Source
         </h2>
         <div className="container py-4">
           <div className="-m-4 flex flex-wrap">
-            {projectsData.filter((project) => project.projectType === "oss")
-            .map((d) => (
-              <Card
-                key={d.title}
-                title={d.title}
-                description={d.description}
-                imgSrc={d.imgSrc}
-                href={d.href}
-              />
-            ))}
+            {projectsData
+              .filter((project) => project.projectType === 'oss')
+              .map((d) => (
+                <Card
+                  key={d.title}
+                  title={d.title}
+                  description={d.description}
+                  imgSrc={d.imgSrc}
+                  href={d.href}
+                />
+              ))}
           </div>
         </div>
       </div>
