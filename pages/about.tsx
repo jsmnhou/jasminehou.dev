@@ -68,22 +68,10 @@ export default function About() {
           </div>
           <h3> Top Songs</h3>
           <TopTrackSpotify />
+          {/* Hershey (pet me)
           <br />
           <br />
-          Hershey (pet me)
-          <br />
-          <br />
-          Krool Gifs
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          More text
+          Krool Gifs */}
         </div>
       </div>
       {/* <div className="prose max-w-none pb-8 pt-2 dark:prose-dark xl:col-span-3">
