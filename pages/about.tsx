@@ -6,7 +6,7 @@ import PageTitle from '@/components/PageTitle'
 import SocialIcon from '@/components/social-icons'
 import TopTrackSpotify from 'components/TopTrackSpotify'
 import animeTop from '@/data/animeTop'
-
+import Jasmine from 'public/static/images/me-akira.jpg'
 export default function About() {
   return (
     <>
@@ -22,7 +22,7 @@ export default function About() {
         <div className="flex flex-col items-center pb-12 pt-2 xl:sticky xl:top-4 xl:items-start">
           <div>
             <Image
-              src="/../public/static/images/me-akira.JPG"
+              src={Jasmine}
               width={200}
               height={250}
               alt="pinkie"
