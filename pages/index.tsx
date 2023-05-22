@@ -5,8 +5,6 @@ import { TypedHeading } from '@/components/TypedHeading'
 import Pengu from 'public/static/images/pengu_island.png'
 import Footer from '@/components/Footer'
 
-
-
 export default function Home() {
   return (
     <>
