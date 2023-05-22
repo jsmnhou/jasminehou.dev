@@ -11,15 +11,15 @@ export function TypedHeading() {
       strings: ["Hi, I'm Jasmine!"],
       startDelay: 10,
       typeSpeed: 50,
-      backSpeed: 10,
-      backDelay: 1500,
+      // backSpeed: 10,
+      // backDelay: 1500,
       // loop: true,
     })
     return () => typed.destroy()
   }, [])
 
   return (
-    <div className="font-sans text-3xl font-medium leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+    <div className="font-sans text-3xl leading-tight font-medium text-gray-900 dark:text-gray-100 sm:text-5xl sm:pb-4 md:text-6xl md:pb-0 ">
       <span ref={el} />
     </div>
   )
