@@ -3,6 +3,7 @@ import projectsData from '@/data/projectsData'
 import Card from '@/components/Card'
 import { PageSEO } from '@/components/SEO'
 import PageTitle from '@/components/PageTitle'
+import Footer from '@/components/Footer'
 
 export default function Projects() {
   return (
@@ -52,6 +53,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   )
 }

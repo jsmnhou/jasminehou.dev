@@ -20,7 +20,7 @@ const LayoutWrapper = ({ children }: Props) => {
       >
         <Header />
         <main className="mb-auto">{children}</main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </SectionContainer>
   )

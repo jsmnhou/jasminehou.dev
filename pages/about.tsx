@@ -7,6 +7,8 @@ import SocialIcon from '@/components/social-icons'
 import TopTrackSpotify from 'components/TopTrackSpotify'
 import animeTop from '@/data/animeTop'
 import Jasmine from 'public/static/images/akira.jpg'
+import Footer from '@/components/Footer'
+
 export default function About() {
   return (
     <>
@@ -80,6 +82,7 @@ export default function About() {
         <br />
         <br />
       </div> */}
+      <Footer />
     </>
   )
 }

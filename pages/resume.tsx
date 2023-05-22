@@ -4,6 +4,7 @@ import Image from 'next/image'
 // import { InferGetStaticPropsType } from 'next'
 import PageTitle from '@/components/PageTitle'
 import SocialIcon from '@/components/social-icons'
+import Footer from '@/components/Footer'
 
 export default function Resume() {
   return (
@@ -66,6 +67,7 @@ export default function Resume() {
           <li>NCWIT Aspirations in Computing Award: Bay Area Affiliate</li>
         </ul>
       </div>
+      <Footer />
     </>
   )
 }
