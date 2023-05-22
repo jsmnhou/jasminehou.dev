@@ -16,10 +16,11 @@ const LayoutWrapper = ({ children }: Props) => {
   return (
     <SectionContainer>
       <div
-        className={`${inter.className} mx-auto flex max-w-2xl flex-col px-4 sm:px-6 xl:max-w-4xl xl:px-0`}
+        // className={`${inter.className} mx-auto flex max-w-2xl flex-col px-4 sm:px-6 xl:max-w-4xl xl:px-0`}
+        className={`${inter.className} container mx-auto px-10`}
       >
         <Header />
-        <main className="mb-auto">{children}</main>
+        <main>{children}</main>
         {/* <Footer /> */}
       </div>
     </SectionContainer>
