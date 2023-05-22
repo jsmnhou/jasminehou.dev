@@ -67,7 +67,6 @@ export default function Resume() {
           <li>NCWIT Aspirations in Computing Award: Bay Area Affiliate</li>
         </ul>
       </div>
-      <Footer />
     </>
   )
 }

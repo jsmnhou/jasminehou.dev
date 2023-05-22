@@ -28,7 +28,7 @@ export default function About() {
               width={200}
               height={250}
               alt="pinkie"
-              className="rounded-full xl:rounded-lg"
+              className="rounded-lg"
             />
           </div>
           <h3 className="pb-2 pt-4 text-2xl font-bold leading-8 tracking-tight">Jasmine Hou</h3>
@@ -82,7 +82,6 @@ export default function About() {
         <br />
         <br />
       </div> */}
-      <Footer />
     </>
   )
 }

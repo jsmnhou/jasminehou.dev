@@ -12,19 +12,18 @@ const inter = Inter({
   subsets: ['latin'],
 })
 
-const LayoutWrapper = ({ children }: Props) => {
+export default function LayoutWrapper({ children }: Props) {
   return (
     <SectionContainer>
       <div
         // className={`${inter.className} mx-auto flex max-w-2xl flex-col px-4 sm:px-6 xl:max-w-4xl xl:px-0`}
-        className={`${inter.className} container mx-auto px-10`}
+        className={`container mx-auto flex  h-screen flex-col px-10 ${inter.className}`}
       >
         <Header />
         <main>{children}</main>
-        {/* <Footer /> */}
+        <div className="grow" />
+        <Footer />
       </div>
     </SectionContainer>
   )
 }
-
-export default LayoutWrapper
