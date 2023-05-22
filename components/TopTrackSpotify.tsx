@@ -24,10 +24,6 @@ export default function TopTrackSpotify() {
   if (error) return <div>error</div>
   return (
     <div>
-      <div className="mb-6 ">
-        {/* <h3 className="text-2xl font-bold">Top Spotify track</h3> */}
-        <p className="text-subtle my-0 text-lg">Click the number for a preview 🎧</p>
-      </div>
       <div className="space-y-3">
         {data?.tracks.map((track, index) => (
           <Track
