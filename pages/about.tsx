@@ -23,13 +23,7 @@ export default function About() {
         {/* Sticky Sidebar */}
         <div className="flex flex-col items-center pb-12 pt-2 xl:sticky xl:top-4 xl:items-start">
           <div>
-            <Image
-              src={Jasmine}
-              width={200}
-              height={250}
-              alt="pinkie"
-              className="rounded-lg"
-            />
+            <Image src={Jasmine} width={200} height={250} alt="pinkie" className="rounded-lg" />
           </div>
           <h3 className="pb-2 pt-4 text-2xl font-bold leading-8 tracking-tight">Jasmine Hou</h3>
           <div className="text-gray-500 dark:text-gray-400">University of Michigan</div>
