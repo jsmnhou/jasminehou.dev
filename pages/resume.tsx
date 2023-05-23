@@ -18,7 +18,7 @@ export default function Resume() {
       </div>
 
       {/* Resume Text */}
-      <div className="prose pb-8 pt-2 text-lg leading-relaxed dark:prose-dark">
+      <div className="prose pb-20 pt-2 text-lg leading-relaxed dark:prose-dark">
         For a quick summary, please reference my{' '}
         <a
           href="https://docs.google.com/gview?url=https://github.com/jsmnhou/jsmnhou/raw/main/resume.pdf&embedded=true"

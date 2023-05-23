@@ -39,7 +39,7 @@ export default function About() {
         <div className="pb-8 pt-2 text-lg leading-relaxed text-gray-900 dark:text-gray-300 xl:col-span-2">
           Hey, I'm Jasmine! I grew up in the Bay Area and I'm currently in my second year as a
           computer science student at the University of Michigan.{' '}
-          <span className="font-semibold text-blue-500">(Go Blue!)</span>
+          <span className="text-blue-500">(Go Blue!)</span>
           <br />
           <br />
           <p className="pb-2">When I'm not studying, you'll probably find me:</p>
