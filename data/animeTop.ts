@@ -10,14 +10,14 @@ const animeTop = [
     url: 'https://myanimelist.net/anime/34599/Made_in_Abyss',
   },
   {
-    title: 'Code Geass: Lelouch of the Rebellion R2',
-    thumbnail: '/static/images/anime/codegeass.jpeg',
-    url: 'https://myanimelist.net/anime/2904/Code_Geass__Hangyaku_no_Lelouch_R2',
-  },
-  {
     title: 'The Promised Neverland',
     thumbnail: '/static/images/anime/promisedneverland.jpeg',
     url: 'https://myanimelist.net/anime/37779/Yakusoku_no_Neverland',
+  },
+  {
+    title: 'Code Geass: Lelouch of the Rebellion R2',
+    thumbnail: '/static/images/anime/codegeass.jpeg',
+    url: 'https://myanimelist.net/anime/2904/Code_Geass__Hangyaku_no_Lelouch_R2',
   },
   {
     title: 'Hunter x Hunter',
