@@ -89,7 +89,7 @@ export default function About() {
             rel="noreferrer"
           >
             <div className="mb-2 mt-10 text-xl font-normal text-gray-900 hover:font-bold dark:text-gray-300">
-              Top Songs
+              Top Songs (of the Month)
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
