@@ -31,7 +31,7 @@ export default function About() {
             <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} />
             <SocialIcon kind="github" href={siteMetadata.github} />
             <SocialIcon kind="linkedin" href={siteMetadata.linkedin} />
-            <SocialIcon kind="facebook" href={siteMetadata.facebook} />
+            <SocialIcon kind="vsco" href={siteMetadata.vsco} />
           </div>
         </div>
 
@@ -56,7 +56,7 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <div className="mb-4 text-xl font-normal text-gray-900 hover:font-bold dark:text-gray-300">
+            <div className="mb-4 text-xl font-normal text-gray-900 hover:font-bold hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-500">
               Top Anime
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +88,7 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <div className="mb-2 mt-10 text-xl font-normal text-gray-900 hover:font-bold dark:text-gray-300">
+            <div className="mb-2 mt-10 text-xl font-normal text-gray-900 hover:font-bold hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-500">
               Top Songs (of the Month)
               <svg
                 xmlns="http://www.w3.org/2000/svg"

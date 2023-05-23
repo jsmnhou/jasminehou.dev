@@ -15,9 +15,8 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'jsmnhou@gmail.com',
   github: 'https://github.com/jsmnhou',
-  // twitter: 'https://twitter.com/Twitter',
   facebook: 'https://www.facebook.com/jasminehou04/',
-  // youtube: 'https://youtube.com',
+  vsco: 'https://vsco.co/jasminehou/',
   linkedin: 'https://www.linkedin.com/in/jasmine-hou1/',
   locale: 'en-US',
   analytics: {
