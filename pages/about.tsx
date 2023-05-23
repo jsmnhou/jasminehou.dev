@@ -73,7 +73,7 @@ export default function About() {
               </svg>
             </div>
           </a>
-          <div className="grid grid-cols-6">
+          <div className="grid grid-cols-6 gap-x-1">
             {animeTop.map((d, i) => (
               <div key={i} className="relative aspect-[25/36]">
                 <a href={d.url} title={d.title} target="_blank" rel="noreferrer" className="">
