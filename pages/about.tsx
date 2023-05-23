@@ -1,13 +1,14 @@
 import siteMetadata from '@/data/siteMetadata'
 import { PageSEO } from '@/components/SEO'
 import Image from 'next/image'
-// import { InferGetStaticPropsType } from 'next'
 import PageTitle from '@/components/PageTitle'
 import SocialIcon from '@/components/social-icons'
 import TopTrackSpotify from 'components/TopTrackSpotify'
 import animeTop from '@/data/animeTop'
 import Jasmine from 'public/static/images/akira.jpg'
-import Link from 'components/Link'
+import KRool from 'public/static/gifs/krool2.gif'
+import Snowboard from 'public/static/gifs/snowboard.gif'
+import Anime from 'public/static/gifs/gojo.gif'
 
 export default function About() {
   return (
@@ -43,10 +44,37 @@ export default function About() {
           <br />
           <br />
           <p className="pb-2">When I'm not studying, you'll probably find me:</p>
-          <p className="indent-8"> • Playing League or Smash</p>
-          {/* link to krool */}
-          <p className="indent-8"> • Planning my next snowboarding trip</p>
-          <p className="indent-8"> • Watching anime or YouTube video essays</p>
+          <div className="prose text-gray-900 dark:text-gray-300">
+            <ul className="list-disc text-lg">
+              <li className="my-0">
+                Tilting from League or Smash
+                <Image
+                  src={KRool}
+                  alt="loading..."
+                  width="70"
+                  className="my-0 inline-flex items-center pl-3"
+                />
+              </li>
+              <li className="my-0">
+                Planning my next snowboarding trip
+                <Image
+                  src={Snowboard}
+                  alt="loading..."
+                  width="60"
+                  className="my-0 inline-flex items-center pl-3"
+                />
+              </li>
+              <li className="my-0">
+                Catching up on anime/manga
+                <Image
+                  src={Anime}
+                  alt="loading..."
+                  width="50"
+                  className="my-0 inline-flex items-center pl-3"
+                />
+              </li>
+            </ul>
+          </div>
           <br />
           Got any project ideas or anime recommendations, shoot me an email; I would love to chat!
           <div className="mb-4 mt-10 text-2xl font-bold">Some Favorites:</div>
@@ -106,7 +134,7 @@ export default function About() {
             </div>
           </a>
           <div className="mb-6 ">
-            <p className="my-0">Click the number for a preview 🎧</p>
+            <p className="my-0">Click below for a preview 🎧</p>
           </div>
           <TopTrackSpotify />
           {/* Hershey (pet me)
@@ -115,12 +143,6 @@ export default function About() {
           Krool Gifs */}
         </div>
       </div>
-      {/* <div className="prose max-w-none pb-8 pt-2 dark:prose-dark xl:col-span-3">
-        <h1>Favorites</h1>
-        LMAO LMAOLMAO
-        <br />
-        <br />
-      </div> */}
     </>
   )
 }
