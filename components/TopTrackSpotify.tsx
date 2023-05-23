@@ -21,7 +21,7 @@ export default function TopTrackSpotify() {
   const { data, error } = useSWR<TopTracks>('/api/spotify/top-tracks', fetcher)
   const [selected, setselected] = useState(-1)
   if (!data) return <div>no data</div>
-  if (error) return <div>error</div>
+  if (error) return <div>{error}</div>
   return (
     <div>
       <div className="space-y-3">
