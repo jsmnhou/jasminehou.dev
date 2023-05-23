@@ -9,7 +9,7 @@ const projectsData = [
   {
     title: 'Mental Health/COVID-19 Analysis',
     description: `Investigating effects of COVID-19 on student mental health with NumPy, Pandas, and more.`,
-    imgSrc: '/static/images/covid-cover.png',
+    imgSrc: '/static/images/covid-cover2.png',
     href: 'https://github.com/jsmnhou/mental-health/blob/main/final_mental_health_during_COVID19.ipynb',
     projectType: 'personal',
   },
