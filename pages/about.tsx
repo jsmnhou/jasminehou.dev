@@ -76,7 +76,7 @@ export default function About() {
             </ul>
           </div>
           <br />
-          Got any project ideas or anime recommendations, shoot me an email; I would love to chat!
+          Always down to chat, shoot me an email!
           <div className="mb-4 mt-10 text-2xl font-bold">Some Favorites:</div>
           <a
             className="no-underline"
