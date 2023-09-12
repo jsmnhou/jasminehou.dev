@@ -60,7 +60,7 @@ export default function Resume() {
             Next.js, Git
           </li>
         </ul>
-        <h2>Other</h2>
+        <h2>Honors</h2>
         <ul className="list-disc space-y-1">
           <li>USACO Computing Olympiad, Gold Division</li>
           <li>Presidential Volunteer Service Award: Gold/Silver</li>
