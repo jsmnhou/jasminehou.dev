@@ -17,7 +17,7 @@ const siteMetadata = {
   github: 'https://github.com/jsmnhou',
   facebook: 'https://www.facebook.com/jasminehou04/',
   vsco: 'https://vsco.co/jasminehou/',
-  linkedin: 'https://www.linkedin.com/in/jasmine-hou1/',
+  linkedin: 'https://www.linkedin.com/in/jsmnhou/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
