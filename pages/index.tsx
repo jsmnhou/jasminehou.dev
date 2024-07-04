@@ -15,7 +15,7 @@ export default function Home() {
           <div className="pb-6 pt-6 md:space-y-5 xl:w-1/2 xl:space-y-2">
             <TypedHeading />
             <p className="prose pb-8 pt-4 text-lg leading-relaxed dark:prose-dark">
-              I'm currently a second-year computer science student at the University of Michigan.
+              I'm currently a third-year computer science student at the University of Michigan.
               <br />
               <br />
               Thanks for dropping by! ♡
