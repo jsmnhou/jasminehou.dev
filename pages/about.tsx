@@ -7,8 +7,8 @@ import TopTrackSpotify from 'components/TopTrackSpotify'
 import animeTop from '@/data/animeTop'
 import Jasmine from 'public/static/images/akira.jpg'
 import KRool from 'public/static/gifs/krool2.gif'
-import Snowboard from 'public/static/gifs/snowboard.gif'
-import Anime from 'public/static/gifs/gojo.gif'
+import Dog from 'public/static/gifs/dog2.gif'
+import Sun from 'public/static/gifs/sun3.gif'
 
 export default function About() {
   return (
@@ -38,7 +38,7 @@ export default function About() {
 
         {/* About Me Text */}
         <div className="pb-8 pt-2 text-lg leading-relaxed text-gray-900 dark:text-gray-300 xl:col-span-2">
-          Hey, I'm Jasmine! I grew up in the Bay Area and I'm currently in my second year as a
+          Hi, I'm Jasmine! I grew up in the Bay Area and I'm currently in my third year as a
           computer science student at the University of Michigan.{' '}
           <span className="text-blue-500">(Go Blue!)</span>
           <br />
@@ -47,7 +47,7 @@ export default function About() {
           <div className="prose text-gray-900 dark:text-gray-300">
             <ul className="list-disc text-lg">
               <li className="my-0">
-                Tilting from League or Smash
+                Tilting from video games
                 <Image
                   src={KRool}
                   alt="loading..."
@@ -56,27 +56,26 @@ export default function About() {
                 />
               </li>
               <li className="my-0">
-                Planning my next snowboarding trip
+                Bullying my dog (&lt;3)
                 <Image
-                  src={Snowboard}
+                  src={Dog}
                   alt="loading..."
-                  width="60"
+                  width="55"
                   className="my-0 inline-flex items-center pl-3"
                 />
               </li>
               <li className="my-0">
-                Catching up on anime/manga
+                Replenishing my vitamin D deficiency
                 <Image
-                  src={Anime}
+                  src={Sun}
                   alt="loading..."
-                  width="50"
+                  width="60"
                   className="my-0 inline-flex items-center pl-3"
                 />
               </li>
             </ul>
           </div>
           <br />
-          Always down to chat, shoot me an email!
           <div className="mb-4 mt-10 text-2xl font-bold">Some Favorites:</div>
           <a
             className="no-underline"

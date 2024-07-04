@@ -45,8 +45,8 @@ export default function Resume() {
         University of Michigan, B.S. Computer Science, expected Spring 2025
         <ul className="list-disc space-y-1">
           <li>
-            <span className="font-bold">Coursework: </span> Data Structures and Algorithms,
-            Microarchitecture, Programming and Data Structures, Discrete Math, Linear Algebra
+            <span className="font-bold">Coursework: </span> Computer Systems, Web Systems, Theory of Computation, Data Structures and Algorithms,
+            Programming and Data Structures, Discrete Math, Linear Algebra
           </li>
         </ul>
         <h2>Skills</h2>
