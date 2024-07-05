@@ -19,7 +19,7 @@ export default function Resume() {
 
       {/* Resume Text */}
       <div className="prose pb-20 pt-2 text-lg leading-relaxed dark:prose-dark">
-        For more information, please reference my{' '}
+        {/* For more information, please reference my{' '}
         <a
           href="https://docs.google.com/gview?url=https://github.com/jsmnhou/jsmnhou/raw/main/Jasmine_Hou_Resume.pdf&embedded=true"
           className="inline-flex items-center font-medium text-blue-500 hover:font-semibold dark:text-blue-500"
@@ -40,7 +40,7 @@ export default function Resume() {
               </g>
             </g>
           </svg>
-        </a>
+        </a> */}
         <h2>Education</h2>
         University of Michigan, B.S. Computer Science, expected Spring 2025
         <ul className="list-disc space-y-1">
