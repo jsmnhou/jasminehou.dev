@@ -45,20 +45,20 @@ export default function Resume() {
         University of Michigan, B.S. Computer Science, expected Spring 2025
         <ul className="list-disc space-y-1">
           <li>
-            <span className="font-bold">Coursework: </span> Computer Systems, Web Systems, Theory of
-            Computation, Data Structures and Algorithms, Programming and Data Structures, Discrete
-            Math, Linear Algebra
+            <span className="font-bold">Coursework: </span> Data Structures and Algorithms, Computer
+            Security, Computer Systems, Web Systems, Theory of Computation, Human-Centered SW,
+            Software Engineering, Discrete Mathematics, Linear Algebra
           </li>
         </ul>
         <h2>Skills</h2>
         <ul className="list-disc space-y-1">
           <li>
-            <span className="font-bold">Languages: </span>C++, Python, Java, Javascript, TypeScript,
-            HTML, CSS
+            <span className="font-bold">Languages: </span>C++, Python, Javascript, TypeScript, HTML,
+            CSS
           </li>
           <li>
-            <span className="font-bold">Frameworks / Technologies: </span> Django, React, Gatsby,
-            Next.js, Git
+            <span className="font-bold">Frameworks / Technologies: </span> React, GraphQL, Django,
+            Git, Cypress, Jest, Next.js, Tailwind CSS, VS Code
           </li>
         </ul>
         <h2>Honors</h2>
